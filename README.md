@@ -2,6 +2,7 @@
 
 # Power BI Project – Sales & Insights Dashboard
 This repository contains a Power BI report (`power bi project updated.pbix`) to analyze sales and customer insights with interactive visuals.
+<img width="1919" height="1013" alt="Screenshot 2025-08-30 174911" src="https://github.com/user-attachments/assets/934c1dde-548f-4572-9cdf-e6cf84694384" />
 
 ## Highlights
 - Clean dashboard with key KPIs (Revenue, Profit, Orders)
