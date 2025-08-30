@@ -48,3 +48,39 @@ Feel free to add screenshots in an assets/ folder.
 
 License
 MIT
+
+Important :-
+* Add powerbi backend data SQL file before creating visualization in power BI
+
+  🔹 Steps to Connect SQL Database in Power BI
+1. Open Power BI Desktop
+Launch Power BI Desktop.
+
+2. Get Data
+On the Home tab, click Get Data → Select SQL Server.
+
+3. Enter SQL Server Details
+A dialog box will appear:
+Server → Enter your SQL Server instance name (e.g., localhost, DESKTOP\SQLEXPRESS, or cloud server like mydb.database.windows.net).
+Database → Enter your database name if you know it, or leave blank to browse later.
+
+Data Connectivity mode:
+Import → Loads a copy of the data into Power BI.
+DirectQuery → Keeps data in SQL Server and queries live when you use visuals.
+
+👉 Choose based on your need (usually Import for small-medium data, DirectQuery for large/real-time).
+
+4. Authentication
+Select how you connect:
+Windows Authentication (default, uses your login).
+Database Authentication (enter SQL username & password).
+Microsoft Account (if Azure SQL).
+
+5. Navigator Window
+After successful connection, Power BI shows all tables & views in your database.
+
+✅ Select the required tables (like Employees, Sales, etc.).
+
+You can also run a SQL query directly by selecting "Advanced options" → paste your SQL script.
+
+
