@@ -10,6 +10,7 @@ This repository contains a Power BI report (`power bi project updated.pbix`) to 
 - Reusable model with measures and calculated columns
 - Works with sample data; can be connected to your own sources
 
+<img width="1918" height="1012" alt="Screenshot 2025-08-30 174935" src="https://github.com/user-attachments/assets/063b2741-aa7b-4afa-bf9a-3f7817bf3eb3" />
 
 Project Title
 Short one-line description: A simple data project containing (choose one) Power BI report / SQL database / Excel workbook for analyzing artists, artworks, customers, and sales.
